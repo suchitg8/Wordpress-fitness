@@ -1,0 +1,11 @@
+/**
+Plugin CSS File.
+Date: 25 Feb, 2014.
+@Since 0.0.2
+*/
+.rj_leaf{
+		margin-left: -10px !important;
+	}
+.rj_leaf .rj_leaf{
+		margin-left: -20px !important;
+	}

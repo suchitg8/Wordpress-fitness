@@ -1,0 +1,462 @@
+#wp_mega_messages_wrapper {
+  display: none;
+}
+
+#custom_frequency {
+  width: 75px;
+  vertical-align: middle;
+}
+
+.wp_mega_message_box {
+  display: none;
+  position: fixed;
+  z-index: 1000000;
+  padding: 10px;
+  overflow: auto;
+}
+
+.wp_mega_message_box p {
+  margin-top: 0 !important;
+}
+
+.wp_mega_message_box_static{
+  position: static;
+  display: inline-block !important;
+  margin-right: 12px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wp_mega_message_box_block{
+  display: block;
+}
+
+.wp_mega_message_box_default, .wp_mega_message_box_opacity, .wp_mega_message_box_rounded, .wp_mega_message_box_gardiant {
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.wp_mega_message_box_gardiant {
+  border: 0;
+}
+
+.wp_mega_message_box_rounded {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.wp_mega_message_box_opacity {
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.pattern {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin: 0 1px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.pattern.select {
+  height: 8px;
+  width: 8px;
+  cursor: default;
+  margin: 4px;
+}
+
+.pattern[data-pattern='blue'],
+.wp_mega_message_box_default.wp_mega_message_box_blue,
+.wp_mega_message_box_rounded.wp_mega_message_box_blue{
+  background-color: rgb(0, 119, 255);
+}
+
+.pattern[data-pattern='green'],
+.wp_mega_message_box_default.wp_mega_message_box_green,
+.wp_mega_message_box_rounded.wp_mega_message_box_green{
+  background-color: rgb(0, 207, 42);
+}
+
+.pattern[data-pattern='red'],
+.wp_mega_message_box_default.wp_mega_message_box_red,
+.wp_mega_message_box_rounded.wp_mega_message_box_red{
+  background-color: rgb(225, 77, 67);
+}
+
+.pattern[data-pattern='gray'],
+.wp_mega_message_box_default.wp_mega_message_box_gray,
+.wp_mega_message_box_rounded.wp_mega_message_box_gray{
+  background-color: #898989;
+}
+
+.pattern[data-pattern='orange'],
+.wp_mega_message_box_default.wp_mega_message_box_orange,
+.wp_mega_message_box_rounded.wp_mega_message_box_orange{
+  background-color: rgb(225, 181, 67);
+}
+
+.pattern[data-pattern='white'],
+.wp_mega_message_box_default.wp_mega_message_box_white,
+.wp_mega_message_box_rounded.wp_mega_message_box_white{
+  background-color: #FFF;
+  border: 1px solid #E0E0E0;
+  color: #727272;
+}
+
+.pattern[data-pattern='dark'],
+.wp_mega_message_box_default.wp_mega_message_box_dark,
+.wp_mega_message_box_rounded.wp_mega_message_box_dark{
+  background-color: #363B3F;
+}
+
+/* Opacity background */
+
+.pattern[data-pattern='oblue'],
+.wp_mega_message_box_opacity.wp_mega_message_box_oblue{
+  background-color: rgb(0, 119, 255);
+  background-color: rgba(0, 119, 255, 0.5);
+  color: #0057BB;
+}
+
+.pattern[data-pattern='ogreen'],
+.wp_mega_message_box_opacity.wp_mega_message_box_ogreen{
+  background-color: rgb(0, 207, 42);
+  background-color: rgba(0, 207, 42, 0.5);
+  color: green;
+}
+
+.pattern[data-pattern='ored'],
+.wp_mega_message_box_opacity.wp_mega_message_box_ored{
+  background-color: rgb(225, 77, 67);
+  background-color: rgba(225, 77, 67, 0.5);
+  color: rgb(137, 45, 39);
+}
+
+.pattern[data-pattern='ogray'],
+.wp_mega_message_box_opacity.wp_mega_message_box_ogray{
+  background-color: rgb(137, 137, 137);
+  background-color: rgba(137, 137, 137, 0.5);
+  color: #4F4F4F;
+}
+
+.pattern[data-pattern='oorange'],
+.wp_mega_message_box_opacity.wp_mega_message_box_oorange{
+  background-color: rgb(225, 181, 67);
+  background-color: rgba(225, 181, 67, 0.5);
+  color: rgb(147, 117, 40);
+}
+
+.pattern[data-pattern='owhite'],
+.wp_mega_message_box_opacity.wp_mega_message_box_owhite{
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #E0E0E0;
+  color: #727272;
+}
+
+.pattern[data-pattern='odark'],
+.wp_mega_message_box_opacity.wp_mega_message_box_odark{
+  background-color: rgb(54, 59, 63);
+  background-color: rgba(54, 59, 63, 0.5);
+}
+
+/* Gardiant background */
+
+.pattern[data-pattern='gblue'],
+.wp_mega_message_box_gardiant.wp_mega_message_box_gblue{
+  background: #b4c5f6; /* Old browsers */
+  background: -moz-linear-gradient(top,  #b4c5f6 0%, #1774ed 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4c5f6), color-stop(100%,#1774ed)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #b4c5f6 0%,#1774ed 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #b4c5f6 0%,#1774ed 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #b4c5f6 0%,#1774ed 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #b4c5f6 0%,#1774ed 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4c5f6', endColorstr='#1774ed',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #6B95CD;
+}
+
+.pattern[data-pattern='ggreen'],
+.wp_mega_message_box_gardiant.wp_mega_message_box_ggreen{
+  background: #c1f6b4; /* Old browsers */
+  background: -moz-linear-gradient(top,  #c1f6b4 0%, #69ed17 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c1f6b4), color-stop(100%,#69ed17)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #c1f6b4 0%,#69ed17 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #c1f6b4 0%,#69ed17 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #c1f6b4 0%,#69ed17 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #c1f6b4 0%,#69ed17 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1f6b4', endColorstr='#69ed17',GradientType=0 ); /* IE6-9 */
+  color: green;
+  border: 1px solid #5EC720;
+}
+
+.pattern[data-pattern='gred'],
+.wp_mega_message_box_gardiant.wp_mega_message_box_gred{
+  background: #f6b7b4; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f6b7b4 0%, #ed1734 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6b7b4), color-stop(100%,#ed1734)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f6b7b4 0%,#ed1734 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f6b7b4 0%,#ed1734 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f6b7b4 0%,#ed1734 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f6b7b4 0%,#ed1734 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6b7b4', endColorstr='#ed1734',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #D74256;
+}
+
+.pattern[data-pattern='ggray'],
+.wp_mega_message_box_gardiant.wp_mega_message_box_ggray{
+  background: #d1d1d1; /* Old browsers */
+  background: -moz-linear-gradient(top,  #d1d1d1 0%, #807f7e 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1d1d1), color-stop(100%,#807f7e)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #d1d1d1 0%,#807f7e 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #d1d1d1 0%,#807f7e 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #d1d1d1 0%,#807f7e 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #d1d1d1 0%,#807f7e 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#807f7e',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #ABABAB;
+}
+
+.pattern[data-pattern='gorange'],
+.wp_mega_message_box_gardiant.wp_mega_message_box_gorange{
+  background: #f6d9b4; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f6d9b4 0%, #ed6917 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6d9b4), color-stop(100%,#ed6917)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f6d9b4 0%,#ed6917 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f6d9b4 0%,#ed6917 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f6d9b4 0%,#ed6917 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f6d9b4 0%,#ed6917 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6d9b4', endColorstr='#ed6917',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #E0A47E;
+}
+
+.pattern[data-pattern='gwhite'],
+.wp_mega_message_box_gardiant.wp_mega_message_box_gwhite{
+  background: #ffffff;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #E0E0E0;
+  color: #727272;
+}
+
+.pattern[data-pattern='gdark'],
+.wp_mega_message_box_gardiant.wp_mega_message_box_gdark{
+  background: #908f8e; /* Old browsers */
+  background: -moz-linear-gradient(top,  #908f8e 0%, #585756 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#908f8e), color-stop(100%,#585756)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #908f8e 0%,#585756 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #908f8e 0%,#585756 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #908f8e 0%,#585756 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #908f8e 0%,#585756 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#908f8e', endColorstr='#585756',GradientType=0 ); /* IE6-9 */
+}
+
+.wp_mega_message_box {
+  font-family: cursive;
+}
+
+.wp_mega_message_box ol, .wp_mega_message_box ul {
+  margin-left:  25px !important;
+  margin-bottom: 0;
+  padding: 5px !important;
+}
+
+.wp_mega_message_box_hide {
+  font-size: 19px !important;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.wp_mega_message_hide_absolute {
+  position: absolute;
+  right: 9px;
+  top: 10px;
+  margin-left: 0;
+}
+
+#wp_mega_messages_tabs {
+  margin-left: -20px;
+  background-color: #fff;
+  border-bottom: 1px solid #E0E0E0;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+#wp_mega_messages_tabs ul {
+  margin: 29px 0 0 31px;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
+#wp_mega_messages_tabs ul li {
+  display: inline-block;
+  margin: 0;
+  font-size: 14px;
+  padding: 10px;
+}
+
+#wp_mega_messages_tabs ul li:not(.wp_mega_messages_tabs_select) {
+  cursor: pointer;
+}
+
+#wp_mega_messages_tabs ul li.wp_mega_messages_tabs_select {
+  border: 1px solid #E0E0E0;
+  border-bottom: 0;
+  background-color: #F1F1F1;
+  box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.06);
+  font-weight: bold;
+  cursor: default;
+}
+
+div[data-tab-id]:not(.wp_mega_messages_tabs_block), div[data-custom-tab-id]:not(.wp_mega_messages_tabs_block) {
+  display: none;
+}
+
+#live-preview {
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+}
+
+#wp_mega_messages_customize_tabs ul {
+  margin: 0;
+  padding: 0;
+}
+
+#wp_mega_messages_customize_tabs {
+  border-bottom: 1px solid #DBDBDB;
+  margin-bottom: 11px;
+}
+
+#wp_mega_messages_customize_tabs ul li {
+  display: inline-block;
+  padding: 8px;
+  margin-bottom: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#wp_mega_messages_customize_tabs ul li.wp_mega_messages_customize_tabs_select {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: default;
+}
+
+#wp_mega_messages_customize_tabs ul li:last-child {
+  color: rgb(194, 194, 194);
+  text-decoration: none !important;
+  cursor: default !important;
+}
+
+.ui-slider-handle.ui-state-default.ui-corner-all {
+  outline: 0;
+}
+
+.ui-widget-content {
+  width: 400px;
+}
+
+#bg_opacity {
+  display: none;
+}
+
+#wp_mega_messages_opacity {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+}
+
+#wp_mega_messages_control {
+  position: relative;
+  z-index: 10001;
+}
+
+input[type='text'][id^='box_size'] {
+  width: 50px;
+}
+
+select[name^='box_size'] {
+  vertical-align: top;
+}
+
+#wp_mega_messages_position {
+  background-color: #646464;
+  box-shadow: inset 1px 2px 7px 1px rgba(0, 0, 0, 0.32);
+  margin: 0 auto;
+  position: relative;
+}
+
+#wp_mega_messages_drag {
+  background-color: #fff;
+  width: 200px;
+  height: 30px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.39);
+  cursor: move;
+}
+
+#wp_mega_messages_drag p {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wp_mega_messages_error {
+  border: 1px solid red !important;
+  position: relative;
+  z-index: 1;
+}
+
+.wp-message-box-desc-position {
+  margin-top: 8px !important;
+  font-size: 14px !important;
+}
+
+#wp_mega_messages_position_real_time {
+    float: right;
+    position: relative;
+    bottom: 44px;
+}
+
+#wp_message_box_page_limit {
+    width: 162px;
+    height: 123px;
+}
+
+#wp_message_box_page_limit option {
+    border-bottom: 1px solid #F5F5F5;
+    padding: 5px;
+}
+
+div[data-position] {
+  position: absolute;
+}
+
+div[data-position='top'] {
+  top: -28px;
+}
+
+div[data-position='left'] {
+  top: 0;
+  left: -37px;
+}

@@ -1,0 +1,966 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Good Health v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-03-14 08:25:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:10
+#@ good_health
+msgid "Article Not Found"
+msgstr ""
+
+#: 404.php:13
+#@ good_health
+msgid "The article you were looking for was not found. You may want to check your link or perhaps that page does not exist anymore."
+msgstr ""
+
+#: archive.php:9
+#@ good_health
+msgid "Posts Categorized:"
+msgstr ""
+
+#: archive.php:14
+#@ good_health
+msgid "Posts Tagged:"
+msgstr ""
+
+#: archive.php:23
+#@ good_health
+msgid "Posts By:"
+msgstr ""
+
+#: archive.php:28
+#@ good_health
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:33
+#@ good_health
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:38
+#@ good_health
+msgid "Yearly Archives:"
+msgstr ""
+
+#: comments.php:17
+#@ good_health
+msgid "<span>No</span> Comments"
+msgstr ""
+
+#: comments.php:17
+#@ good_health
+msgid "<span>1</span> Comment"
+msgstr ""
+
+#: comments.php:17
+#@ good_health
+msgid "<span>%</span> Comments"
+msgid_plural "<span>%</span> Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39
+#@ good_health
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: comments.php:40
+#@ good_health
+msgid "More Comments &rarr;"
+msgstr ""
+
+#: comments.php:45
+#@ good_health
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:7
+#@ good_health
+msgid "Powered by WordPress"
+msgstr ""
+
+#: footer.php:7
+#@ good_health
+msgid "Fashion Blogger"
+msgstr ""
+
+#: full-width.php:40
+#: page.php:33
+#: single.php:107
+#@ good_health
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: full-width.php:41
+#: page.php:34
+#: single.php:108
+#@ good_health
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: header.php:59
+#: library/good_health.php:157
+#@ good_health
+msgid "The Main Menu"
+msgstr ""
+
+#: home-content/home-audio.php:17
+#: home-content/home-video.php:6
+#: home-content/home.php:18
+#: single.php:14
+#@ good_health
+msgid ", "
+msgstr ""
+
+#: home-content/home-audio.php:18
+#: home-content/home-video.php:7
+#: home-content/home.php:19
+#: single.php:15
+#, php-format
+#@ good_health
+msgid "%s"
+msgstr ""
+
+#: home-content/home-audio.php:24
+#: home-content/home-video.php:13
+#: home-content/home.php:25
+#@ good_health
+msgid "Read More &raquo;"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:333
+#: library/functions/custom-functions.php:297
+#@ good_health
+msgid "Install Required Plugins"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:334
+#: library/functions/custom-functions.php:298
+#@ good_health
+msgid "Install Plugins"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:335
+#: library/functions/custom-functions.php:299
+#, php-format
+#@ good_health
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:336
+#: library/functions/custom-functions.php:300
+#@ good_health
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:338
+#: library/functions/custom-functions.php:301
+#, php-format
+#@ good_health
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:343
+#: library/functions/custom-functions.php:302
+#, php-format
+#@ good_health
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:348
+#, php-format
+#@ good_health
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:353
+#: library/functions/custom-functions.php:307
+#, php-format
+#@ good_health
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:358
+#, php-format
+#@ good_health
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:363
+#, php-format
+#@ good_health
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:368
+#: library/functions/custom-functions.php:304
+#, php-format
+#@ good_health
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:373
+#: library/functions/custom-functions.php:305
+#, php-format
+#@ good_health
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:378
+#, php-format
+#@ good_health
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:383
+#: library/functions/custom-functions.php:309
+#@ good_health
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:388
+#@ good_health
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:393
+#: library/functions/custom-functions.php:310
+#@ good_health
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:397
+#: library/functions/custom-functions.php:311
+#@ good_health
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:398
+#@ good_health
+msgid "Return to the dashboard"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:399
+#: library/class/class-tgm-plugin-activation.php:3029
+#: library/functions/custom-functions.php:312
+#@ good_health
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:401
+#, php-format
+#@ good_health
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:402
+#, php-format
+#@ good_health
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:403
+#, php-format
+#@ good_health
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:404
+#@ good_health
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:405
+#@ good_health
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:520
+#@ good_health
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:521
+#@ good_health
+msgid "Update Required"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:635
+#@ good_health
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:828
+#: library/class/class-tgm-plugin-activation.php:3438
+#@ good_health
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:935
+#@ good_health
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:935
+#: library/class/class-tgm-plugin-activation.php:938
+#@ good_health
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:938
+#@ good_health
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:1116
+#: library/class/class-tgm-plugin-activation.php:2828
+#@ good_health
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:1881
+#, php-format
+#@ good_health
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2167
+#@ good_health
+msgid "Required"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2170
+#@ good_health
+msgid "Recommended"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2186
+#@ good_health
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2189
+#@ good_health
+msgid "External Source"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2192
+#@ good_health
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2209
+#@ good_health
+msgid "Not Installed"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2213
+#@ good_health
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2215
+#@ good_health
+msgid "Active"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2221
+#@ good_health
+msgid "Required Update not Available"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2224
+#@ good_health
+msgid "Requires Update"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2227
+#@ good_health
+msgid "Update recommended"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2235
+#, php-format
+#@ good_health
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2280
+#, php-format
+#@ good_health
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:2283
+#, php-format
+#@ good_health
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:2286
+#, php-format
+#@ good_health
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:2289
+#, php-format
+#@ good_health
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:2371
+#@ good_health
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2379
+#@ good_health
+msgid "Installed version:"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2387
+#@ good_health
+msgid "Minimum required version:"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2399
+#@ good_health
+msgid "Available version:"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2422
+#, php-format
+#@ good_health
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2436
+#@ good_health
+msgid "Plugin"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2437
+#@ good_health
+msgid "Source"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2438
+#@ good_health
+msgid "Type"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2442
+#@ good_health
+msgid "Version"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2443
+#@ good_health
+msgid "Status"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2491
+#, php-format
+#@ good_health
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2495
+#, php-format
+#@ good_health
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2500
+#, php-format
+#@ good_health
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2570
+#@ good_health
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2603
+#@ good_health
+msgid "Install"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2609
+#@ good_health
+msgid "Update"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2612
+#@ good_health
+msgid "Activate"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2643
+#@ good_health
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2645
+#@ good_health
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2681
+#@ good_health
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2683
+#@ good_health
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2788
+#@ good_health
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:2814
+#@ good_health
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: library/class/class-tgm-plugin-activation.php:2832
+#: library/class/class-tgm-plugin-activation.php:400
+#@ good_health
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm-plugin-activation.php:3028
+#@ good_health
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3362
+#, php-format
+#@ good_health
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3364
+#, php-format
+#@ good_health
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3365
+#, php-format
+#@ good_health
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3369
+#@ good_health
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3370
+#, php-format
+#@ good_health
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3370
+#: library/class/class-tgm-plugin-activation.php:3376
+#@ good_health
+msgid "Show Details"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3370
+#: library/class/class-tgm-plugin-activation.php:3376
+#@ good_health
+msgid "Hide Details"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3371
+#@ good_health
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3372
+#, php-format
+#@ good_health
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3375
+#@ good_health
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3376
+#, php-format
+#@ good_health
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3377
+#@ good_health
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/class/class-tgm-plugin-activation.php:3378
+#, php-format
+#@ good_health
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/customizer/controls.php:16
+#@ good_health
+msgid "Theme Color Scheme"
+msgstr ""
+
+#: library/customizer/controls.php:24
+#@ good_health
+msgid "Site Logo"
+msgstr ""
+
+#: library/customizer/controls.php:26
+#@ good_health
+msgid "Upload a logo to replace the default site name in the header"
+msgstr ""
+
+#: library/customizer/controls.php:34
+#@ good_health
+msgid "Choose your logo (ideal width is 100-350px and ideal height is 35-40)"
+msgstr ""
+
+#: library/customizer/controls.php:42
+#@ good_health
+msgid "Social Media Icons"
+msgstr ""
+
+#: library/customizer/controls.php:44
+#@ good_health
+msgid "Optional media icons in the header"
+msgstr ""
+
+#: library/customizer/controls.php:53
+#@ good_health
+msgid "Post Settings"
+msgstr ""
+
+#: library/customizer/controls.php:64
+#@ good_health
+msgid "Disable the Related Posts?"
+msgstr ""
+
+#: library/customizer/controls.php:75
+#@ good_health
+msgid "Disable the Author Information?"
+msgstr ""
+
+#: library/customizer/controls.php:81
+#@ good_health
+msgid "Enter your Facebook url"
+msgstr ""
+
+#: library/customizer/controls.php:92
+#@ good_health
+msgid "Enter your Twitter url"
+msgstr ""
+
+#: library/customizer/controls.php:103
+#@ good_health
+msgid "Enter your Google+ url"
+msgstr ""
+
+#: library/customizer/controls.php:114
+#@ good_health
+msgid "Enter your Pinterest url"
+msgstr ""
+
+#: library/customizer/controls.php:125
+#@ good_health
+msgid "Enter your Linkedin url"
+msgstr ""
+
+#: library/customizer/controls.php:136
+#@ good_health
+msgid "Enter your Youtube url"
+msgstr ""
+
+#: library/customizer/controls.php:147
+#@ good_health
+msgid "Enter your Tumblr url"
+msgstr ""
+
+#: library/customizer/controls.php:158
+#@ good_health
+msgid "Enter your Instagram url"
+msgstr ""
+
+#: library/customizer/controls.php:169
+#@ good_health
+msgid "Enter your Flickr url"
+msgstr ""
+
+#: library/customizer/controls.php:180
+#@ good_health
+msgid "Enter your Vimeo url"
+msgstr ""
+
+#: library/customizer/controls.php:191
+#@ good_health
+msgid "Enter your RSS url"
+msgstr ""
+
+#: library/customizer/controls.php:202
+#@ good_health
+msgid "Enter your email address"
+msgstr ""
+
+#: library/functions/custom-functions.php:214
+#@ good_health
+msgid "Facebook"
+msgstr ""
+
+#: library/functions/custom-functions.php:215
+#@ good_health
+msgid "Twitter"
+msgstr ""
+
+#: library/functions/custom-functions.php:216
+#@ good_health
+msgid "Google+"
+msgstr ""
+
+#: library/functions/custom-functions.php:217
+#@ good_health
+msgid "Pinterest"
+msgstr ""
+
+#: library/functions/custom-functions.php:218
+#@ good_health
+msgid "Linkedin"
+msgstr ""
+
+#: library/functions/custom-functions.php:219
+#@ good_health
+msgid "Youtube"
+msgstr ""
+
+#: library/functions/custom-functions.php:220
+#@ good_health
+msgid "Tumblr"
+msgstr ""
+
+#: library/functions/custom-functions.php:221
+#@ good_health
+msgid "Instagram"
+msgstr ""
+
+#: library/functions/custom-functions.php:222
+#@ good_health
+msgid "Flickr"
+msgstr ""
+
+#: library/functions/custom-functions.php:223
+#@ good_health
+msgid "Vimeo"
+msgstr ""
+
+#: library/functions/custom-functions.php:224
+#@ good_health
+msgid "RSS"
+msgstr ""
+
+#: library/functions/custom-functions.php:303
+#, php-format
+#@ good_health
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/functions/custom-functions.php:306
+#, php-format
+#@ good_health
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/functions/custom-functions.php:308
+#, php-format
+#@ good_health
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/functions/custom-functions.php:313
+#, php-format
+#@ good_health
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: library/functions/functions.php:68
+#@ good_health
+msgid "Posts Sidebar"
+msgstr ""
+
+#: library/functions/functions.php:69
+#@ good_health
+msgid "The Posts sidebar."
+msgstr ""
+
+#: library/functions/functions.php:78
+#@ good_health
+msgid "Page Sidebar"
+msgstr ""
+
+#: library/functions/functions.php:79
+#@ good_health
+msgid "The Page sidebar."
+msgstr ""
+
+#: library/functions/functions.php:88
+#@ good_health
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: library/functions/functions.php:89
+#@ good_health
+msgid "The Homepage sidebar."
+msgstr ""
+
+#: library/functions/functions.php:124
+#@ good_health
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/functions/functions.php:128
+#, php-format
+#@ good_health
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+#: library/functions/functions.php:128
+#@ good_health
+msgid "(Edit)"
+msgstr ""
+
+#: library/functions/functions.php:129
+#@ good_health
+msgid "F jS, Y"
+msgstr ""
+
+#: library/good_health.php:196
+#, php-format
+#@ good_health
+msgid "Page %s"
+msgstr ""
+
+#: library/good_health.php:230
+#@ good_health
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: library/good_health.php:275
+#@ good_health
+msgid "Read "
+msgstr ""
+
+#: library/good_health.php:275
+#@ good_health
+msgid "Read more &raquo;"
+msgstr ""
+
+#: post-content/format-quote.php:19
+#: post-content/format.php:9
+#@ good_health
+msgid "Pages:"
+msgstr ""
+
+#: search.php:8
+#@ good_health
+msgid "Search Results for:"
+msgstr ""
+
+#: sidebar-home.php:16
+#: sidebar-page.php:16
+#: sidebar.php:16
+#@ good_health
+msgid "This is a widget ready area. Add some and they will appear here."
+msgstr ""
+
+#: single.php:27
+#@ good_health
+msgid "TAGS: "
+msgstr ""
+
+#: single.php:60
+#@ good_health
+msgid "You may also like "
+msgstr ""
+

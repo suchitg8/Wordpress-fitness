@@ -1,0 +1,208 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SKT Strong\n"
+"POT-Creation-Date: 2016-12-19 13:21+0530\n"
+"PO-Revision-Date: 2016-05-04 12:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: SKT Themes <support@sktthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:36
+msgid "Back"
+msgstr ""
+
+#: archive.php:37
+msgid "Next"
+msgstr ""
+
+#: archive.php:38
+msgid "Posts navigation"
+msgstr ""
+
+#: content-single.php:30 page.php:26
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:34 page.php:30
+msgid "Page"
+msgstr ""
+
+#: content.php:19
+msgid ", "
+msgstr ""
+
+#: footer.php:24 inc/customizer.php:243
+msgid ""
+"Sed suscipit etisds sit proin efficitur nibh euismod. Proindes venenatis "
+"orcfrdeesi sitmauris nec mauris vulputate, a posuere libero congue. Nam "
+"laoreet elit eu erat pulvinar, et efficitur nibh euismod. Proin venenatis "
+"orci sit amet nisl finibus vehicula. <br /> <br /> Sed suscipit mauris nec "
+"mauris vulputate, a posuere libero congue. Nam laoreet elit eu erat "
+"pulvinar, et efficitur nibh euismod. Proin venenatis orci sit amet nisl "
+"finibus vehicula."
+msgstr ""
+
+#: footer.php:33 inc/customizer.php:221
+msgid "Latest News"
+msgstr ""
+
+#: footer.php:53 inc/customizer.php:255
+msgid "Contact Info"
+msgstr ""
+
+#: footer.php:58 inc/customizer.php:283
+msgid "591 Christie Way Passaic Street, North Carolina, America ( USA )"
+msgstr ""
+
+#: footer.php:64
+msgid "+123 456 7890"
+msgstr ""
+
+#: functions.php:33
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:46
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:47
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:56
+msgid "Header Right Widget"
+msgstr ""
+
+#: functions.php:57
+msgid "Appears on top of the header"
+msgstr ""
+
+#: header.php:44 inc/customizer.php:294
+msgid "855-321-9876"
+msgstr ""
+
+#: inc/about-themes.php:13
+msgid "About Theme"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "More color options in PRO Version"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid ""
+"Featured Image Size Should be ( 1400x591 ) More slider settings available in "
+"PRO Version"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Select page for slide one:"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Select page for slide two:"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Select page for slide three:"
+msgstr ""
+
+#: inc/customizer.php:94 inc/customizer.php:141 inc/customizer.php:200
+#: inc/customizer.php:272 inc/customizer.php:320
+msgid "Uncheck To Show This Section"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Homepage Three Boxes Section"
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Select Pages from the dropdown for homepage three boxes section"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "More social icon available in PRO Version"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Add facebook link here"
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "Add twitter link here"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "Add google plus link here"
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Add linkedin link here"
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "Footer Area"
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Add title for latest news feed"
+msgstr ""
+
+#: inc/customizer.php:232
+msgid "About Us"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Add title for about us"
+msgstr ""
+
+#: inc/customizer.php:249
+msgid "About Description"
+msgstr ""
+
+#: inc/customizer.php:260
+msgid "Add title for footer contact info"
+msgstr ""
+
+#: inc/customizer.php:277
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer.php:278
+msgid "Add you contact details here"
+msgstr ""
+
+#: inc/customizer.php:289
+msgid "Add contact address here"
+msgstr ""
+
+#: inc/customizer.php:298
+msgid "Add contact number here."
+msgstr ""
+
+#: inc/customizer.php:308
+msgid "Add you email here"
+msgstr ""
